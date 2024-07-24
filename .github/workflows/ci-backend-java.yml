@@ -9,8 +9,8 @@ on:
         default: "main"
 
 permissions:
-  contents: write # repo write permission update
-        
+ contents: write # repo write permission update
+
 jobs:
   build-and-push-backend-java-dev:
     runs-on: ubuntu-latest
